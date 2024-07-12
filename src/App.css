@@ -1,0 +1,8 @@
+.active {
+    color: #ff0000; /* Change to your desired active link color */
+    font-weight: bold; /* Optionally make the active link bold */
+  }
+
+  /* <div className='flex md:py-0 py-12 gap-[4vh] lg:gap-0 lg:space-x-5 md:flex-row flex-col items-start md:px-0 px-8'> 
+  
+  <div className={`md:relative absolute md:block md:top-0 top-0 md:right-[0] right-[-100%] min-h-[100vh] md:min-h-[0] w-[50%] md:w-[400px] ${isOpen ? 'flex' : 'hidden'}`}>*/
