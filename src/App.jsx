@@ -1,15 +1,20 @@
-import { useState } from 'react'
-
 import './App.css'
+import Footer from './Component/Footer/Footer'
+import Navbar from './Component/Navbar/Navbar'
+import About from './Pages/About/About'
+import Contact from './Pages/Contact/Contact'
+import Portfolio from './Pages/Portfolio/Portfolio'
 
 function App() {
 
 
   return (
   <div>
-    <h2>
-      
-    </h2>
+   <Navbar />
+   <Portfolio/>
+   <About />
+   <Contact />
+   <Footer />
   </div>
   )
 }
