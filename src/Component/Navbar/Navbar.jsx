@@ -14,12 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white text-gray-800 p-4 shadow-md">
+    <nav className="bg-white text-gray-800 p-4 shadow-md fixed w-full">
       <div className="container mx-auto flex justify-between items-center relative">
         <h2 className="text-2xl font-bold text-red-500 cursor-pointer">
           <Link
             to="home"
-            spy={true}
+            spy={true}cd my-portfo
             smooth={true}
             offset={-70}
             duration={500}
@@ -47,7 +47,7 @@ const Navbar = () => {
           >
             <FaTimes size={24} />
           </button>
-          <div className="flex flex-col md:flex-row gap-6 items-start mt-20 md:mt-[33px] font-semibold text-[17px]">
+          <div className="flex flex-col  md:flex-row gap-6 items-center mt-20 md:mt-[33px] font-semibold text-[17px]">
             <Link
               to="home"
               spy={true}
@@ -60,17 +60,6 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-              className="text-gray-800 hover:text-red-500 cursor-pointer"
-            >
-              Portfolio
-            </Link>
-            <Link
               to="about"
               spy={true}
               smooth={true}
@@ -80,6 +69,17 @@ const Navbar = () => {
               className="text-gray-800 hover:text-red-500 cursor-pointer"
             >
               About Me
+            </Link>
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={closeMenu}
+              className="text-gray-800 hover:text-red-500 cursor-pointer"
+            >
+              Portfolio
             </Link>
             <Link
               to="contact"
