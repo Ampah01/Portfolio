@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-scroll';
-import photo from "../../../public/samuel_photo.jpg";
+import photo from "../../../public/sam_pic.jpg";
 
 const Header = () => {
   return (
-    <div id="home" className='bg-gray-100 min-h-screen p-6'>
+    <div id="home" className='bg-gray-100  px-6 py-10  '>
     <div className="flex flex-col md:flex-row justify-between items-center mt-10 mx-auto p-8 animate-fadeIn">
       <div className="max-w-lg text-center text-gray-600 md:text-left animate-fadeInUp">
         <h3 className="text-lg font-medium mb-2">Hey, I'm Samuel</h3>
