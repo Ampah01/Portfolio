@@ -11,8 +11,7 @@ const PortfolioPage = () => {
       description:
         "This sneaker e-commerce website, built with React, Tailwind CSS, and React Router, offers smooth navigation across pages. It features dynamic animations with Framer Motion and a sleek product slider using React Slick.",
       githubUrl: "https://github.com/Ampah01/Project-E-commerce",
-      demoUrl:
-        " https://ecommerce-website-gku7n4q66-samuel-ampahs-projects.vercel.app",
+      demoUrl: " https://ecommerce-website-eight-zeta.vercel.app/",
       more_details:
         "Explore our sleek sneaker shop, crafted with React and Tailwind CSS for a seamless user experience. Browse a curated collection of stylish footwear, from classics to limited editions, all designed to elevate your style effortlessly. Shop with confidence and ease, navigating through intuitive React routes for quick access to product details and checkout.",
       imageUrl: ecommerce,
@@ -21,12 +20,12 @@ const PortfolioPage = () => {
       id: 2,
       title: "Game hub",
       description:
-        "I integrated Axios to fetch gaming data from the RAWG API, ensuring real-time updates and dynamic content for an engaging user experience. Tailwind CSS was instrumental in quickly designing and implementing both dark and light themes, enhancing visual appeal and usability across the application.",
+        "The dynamic game discovery platform utilizes React, Tailwind CSS, and Axios to offer a responsive grid layout, real-time search functionality, and expandable game cards for enhanced user engagement.",
       imageUrl: gamehub,
       githubUrl: "https://github.com/Ampah01/Game-hub",
       more_details:
-        "I utilized Axios to fetch dynamic data from the RAWG API, allowing seamless integration of game information into the application. React Slick was integrated to create an engaging carousel for showcasing featured content, providing a dynamic and interactive browsing experience for users.",
-      demoUrl: "https://game-34kgj3bx1-samuel-ampahs-projects.vercel.app",
+        "This project combines React hooks and modern UI/UX principles to deliver a streamlined game browsing experience. It features a responsive design that adjusts seamlessly across devices, with interactive elements that improve user engagement. The search functionality is powered by React hooks for real-time filtering, while expandable game cards provide detailed information in a focused view. Tailwind CSS ensures a modern and scalable interface, enhancing overall usability and visual appeal.",
+      demoUrl: "https://game-hub-cyan-phi.vercel.app/",
     },
     {
       id: 3,
@@ -68,7 +67,7 @@ const PortfolioPage = () => {
               className="w-full h-40 object-cover cursor-pointer"
               onClick={() => toggleProject(project.id)}
             />
-            <div className="p-4">
+            <div className="p-4"  onClick={() => toggleProject(project.id)}>
               <h3 className="text-xl font-bold mb-2 text-gray-700">
                 {project.title}
               </h3>
