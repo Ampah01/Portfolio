@@ -36,7 +36,7 @@ const PortfolioPage = () => {
       githubUrl: "https://github.com/Ampah01/Weather-App",
       more_details:
         "It offers a seamless user experience by displaying weather data and task management tools side by side. With a visually appealing interface, it allows users to stay informed about the weath+er while keeping track of their daily tasks. The application also includes features such as search functionality for weather updates based on location and animated transitions for a more engaging user interaction.",
-      demoUrl: "https://weather-app-eight-omega-81.vercel.app/",
+      demoUrl: "y ",
     },
   ];
 
@@ -67,7 +67,7 @@ const PortfolioPage = () => {
               className="w-full h-40 object-cover cursor-pointer"
               onClick={() => toggleProject(project.id)}
             />
-            <div className="p-4"  onClick={() => toggleProject(project.id)}>
+            <div className="p-4" onClick={() => toggleProject(project.id)}>
               <h3 className="text-xl font-bold mb-2 text-gray-700">
                 {project.title}
               </h3>

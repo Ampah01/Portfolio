@@ -24,7 +24,6 @@ const Skills = () => {
         <ul className="list-none space-y-2 text-gray-700 text-lg">
           {[
             "Community Management",
-            "Content Creation (Blogs, Tutorials, Documentation)",
             "Public Speaking and Presentations",
             "Social Media Management",
             "Customer Relationship Management (CRM)",
