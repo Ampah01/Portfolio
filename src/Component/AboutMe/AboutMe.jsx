@@ -1,6 +1,7 @@
 import React from "react";
-import sam_photo from "../../../public/sam_photo.jpg";
+import sam_photo from "/sam_photo.jpg";
 import Skills from "./Skills";
+import Education from "./Education";
 
 const AboutMe = () => {
   return (
@@ -38,6 +39,7 @@ const AboutMe = () => {
               create intuitive and visually appealing designs.
             </p>
             <Skills />
+            
             <p className="mt-6 animate-fadeInUp">
               My journey into web development began from curiosity and quickly
               evolved into a deep-seated passion. I thrive on the challenge of
@@ -69,6 +71,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Education/>
     </div>
   );
 };

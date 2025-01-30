@@ -1,23 +1,35 @@
 import React, { useState } from "react";
-import ecommerce from "./../../../public/ecommerce-website.png";
-import gamehub from "./../../../public/game-hub.png";
-import weather from "./../../../public/weather.jpg";
+import ecommerce from "/ecommerce-website.png";
+import gamehub from "/game-hub.png";
+import weather from "/weather.jpg";
+import e_university from "/e_university.png"
 
 const PortfolioPage = () => {
   const projects = [
     {
       id: 1,
+      title: "E-University Website",
+      description:
+        "The E-University platform is designed to facilitate seamless online learning. Built with React and Tailwind CSS, it offers a user-friendly interface for students to access courses, view schedules, and interact with instructors.",
+      imageUrl: e_university,
+      githubUrl: "https://github.com/Ampah01/E_University",
+      more_details:
+        "This project integrates modern design principles to create an intuitive platform for both students and faculty. Users can browse courses and manage their schedules. React ensures a smooth, responsive interface, while Tailwind CSS enhances the site's scalability and performance.",
+      demoUrl: "https://e-university.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Ecommerce-Website",
       description:
         "This sneaker e-commerce website, built with React, Tailwind CSS, and React Router, offers smooth navigation across pages. It features dynamic animations with Framer Motion and a sleek product slider using React Slick.",
       githubUrl: "https://github.com/Ampah01/Project-E-commerce",
-      demoUrl: " https://ecommerce-website-eight-zeta.vercel.app/",
+      demoUrl: "https://ecommerce-website-eight-zeta.vercel.app/",
       more_details:
         "Explore our sleek sneaker shop, crafted with React and Tailwind CSS for a seamless user experience. Browse a curated collection of stylish footwear, from classics to limited editions, all designed to elevate your style effortlessly. Shop with confidence and ease, navigating through intuitive React routes for quick access to product details and checkout.",
       imageUrl: ecommerce,
     },
     {
-      id: 2,
+      id: 3,
       title: "Game hub",
       description:
         "The dynamic game discovery platform utilizes React, Tailwind CSS, and Axios to offer a responsive grid layout, real-time search functionality, and expandable game cards for enhanced user engagement.",
@@ -28,17 +40,18 @@ const PortfolioPage = () => {
       demoUrl: "https://game-hub-cyan-phi.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Weather App",
       description:
         "This project is a Weather and To-Do application that integrates real-time weather data and task management into a single interface using React and Tailwind CSS. It features current weather information, a 7-day forecast from the OpenWeatherMap API, and a to-do list with functionalities to add, delete, and rearrange tasks.",
       imageUrl: weather,
       githubUrl: "https://github.com/Ampah01/Weather-App",
       more_details:
-        "It offers a seamless user experience by displaying weather data and task management tools side by side. With a visually appealing interface, it allows users to stay informed about the weath+er while keeping track of their daily tasks. The application also includes features such as search functionality for weather updates based on location and animated transitions for a more engaging user interaction.",
-      demoUrl: "y ",
+        "It offers a seamless user experience by displaying weather data and task management tools side by side. With a visually appealing interface, it allows users to stay informed about the weather while keeping track of their daily tasks. The application also includes features such as search functionality for weather updates based on location and animated transitions for a more engaging user interaction.",
+      demoUrl: "https://weather-app-eight-omega-81.vercel.app/",
     },
   ];
+  
 
   const [expandedProject, setExpandedProject] = useState(null);
 

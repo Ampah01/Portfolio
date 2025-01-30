@@ -35,7 +35,7 @@ const ContactMe = () => {
               <span className="flex items-center">
                 <FiPhone className="mr-2" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel: +233 (200) 484-457"
                   className="text-gray-700 hover:underline"
                 >
                   +233 (200) 484-457

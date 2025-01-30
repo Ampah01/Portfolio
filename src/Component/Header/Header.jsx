@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-scroll';
-import photo from "../../../public/sam_pic.jpg";
+import photo from "/sam_pic.jpg";
 
 const Header = () => {
   return (

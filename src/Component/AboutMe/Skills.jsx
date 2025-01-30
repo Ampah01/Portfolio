@@ -10,9 +10,7 @@ const Skills = () => {
             "HTML, CSS, JavaScript",
             "React.js for building dynamic web applications",
             "Redux for state management in React applications",
-            "Redux Toolkit (RTK) for simplifying Redux setup and usage",
-            "jQuery for simplified DOM manipulation and event handling",
-            "Tailwind CSS for rapid and modern UI development",
+            "Tailwind CSS and Bootstrap for rapid and modern UI development",
             "Axios for making asynchronous HTTP requests to REST APIs",
           ].map((skill, index) => (
             <li key={index}>{skill}</li>
@@ -25,8 +23,13 @@ const Skills = () => {
           {[
             "Community Management",
             "Public Speaking and Presentations",
-            "Social Media Management",
             "Customer Relationship Management (CRM)",
+            "Effective Communication",
+            "Team Collaboration",
+            "Problem Solving",
+            "Adaptability",
+            "Time Management",
+            "Leadership",
           ].map((skill, index) => (
             <li key={index}>{skill}</li>
           ))}
