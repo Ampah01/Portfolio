@@ -3,6 +3,8 @@ import ecommerce from "/ecommerce-website.png";
 import gamehub from "/game-hub.png";
 import weather from "/weather.jpg";
 import e_university from "/e_university.png"
+import burgerhaven from "/burgerhaven.png"
+
 
 const PortfolioPage = () => {
   const projects = [
@@ -19,6 +21,17 @@ const PortfolioPage = () => {
     },
     {
       id: 2,
+      title: "BurgerHaven",
+      description:
+        "This burgerHaven website, built with React and Bootstrap, provides a seamless and responsive user experience. It features smooth navigation, stylish UI components, and an intuitive layout for browsing delicious burger options effortlessly.",
+      githubUrl: "https://github.com/Ampah01/BurgerHaven",
+      demoUrl: "https://burger-haven-theta.vercel.app/",
+      more_details:
+        "Experience BurgerHaven, a dynamic burger website built with React and Bootstrap for a seamless and responsive experience. Browse our delicious menu in a PDF format and easily place orders through the dedicated order page. With smooth navigation powered by React, you can explore our handcrafted burgers, customize your meal, and complete your order effortlessly.",
+      imageUrl: burgerhaven,
+    },
+    {
+      id: 3,
       title: "Ecommerce-Website",
       description:
         "This sneaker e-commerce website, built with React, Tailwind CSS, and React Router, offers smooth navigation across pages. It features dynamic animations with Framer Motion and a sleek product slider using React Slick.",
@@ -29,7 +42,7 @@ const PortfolioPage = () => {
       imageUrl: ecommerce,
     },
     {
-      id: 3,
+      id: 4,
       title: "Game hub",
       description:
         "The dynamic game discovery platform utilizes React, Tailwind CSS, and Axios to offer a responsive grid layout, real-time search functionality, and expandable game cards for enhanced user engagement.",
@@ -40,7 +53,7 @@ const PortfolioPage = () => {
       demoUrl: "https://game-hub-cyan-phi.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather App",
       description:
         "This project is a Weather and To-Do application that integrates real-time weather data and task management into a single interface using React and Tailwind CSS. It features current weather information, a 7-day forecast from the OpenWeatherMap API, and a to-do list with functionalities to add, delete, and rearrange tasks.",
