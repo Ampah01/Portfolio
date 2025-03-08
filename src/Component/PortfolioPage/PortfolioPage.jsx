@@ -23,7 +23,7 @@ const PortfolioPage = () => {
       demoUrl: "https://burger-haven-theta.vercel.app/",
       more_details:
         "Experience BurgerHaven, a dynamic burger website built with React and Bootstrap for a seamless and responsive experience. Browse our delicious menu in a PDF format and easily place orders through the dedicated order page. With smooth navigation powered by React, you can explore our handcrafted burgers, customize your meal, and complete your order effortlessly.",
-        imageUrl: "/burgerhaven.png",
+        imageUrl: "/burgerhaven.PNG",
     },
     {
       id: 3,
