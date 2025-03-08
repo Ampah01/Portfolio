@@ -14,17 +14,6 @@ const PortfolioPage = () => {
       demoUrl: "https://e-university.vercel.app/",
     },
     {
-      id: 2,
-      title: "BurgerHaven",
-      description:
-        "This burgerHaven website, built with React and Bootstrap, provides a seamless and responsive user experience. It features smooth navigation, stylish UI components, and an intuitive layout for browsing delicious burger options effortlessly.",
-      githubUrl: "https://github.com/Ampah01/BurgerHaven",
-      demoUrl: "https://burger-haven-theta.vercel.app/",
-      more_details:
-        "Experience BurgerHaven, a dynamic burger website built with React and Bootstrap for a seamless and responsive experience. Browse our delicious menu in a PDF format and easily place orders through the dedicated order page. With smooth navigation powered by React, you can explore our handcrafted burgers, customize your meal, and complete your order effortlessly.",
-      imageUrl: "/ecommerce-website.png",
-    },
-    {
       id: 3,
       title: "Ecommerce-Website",
       description:
