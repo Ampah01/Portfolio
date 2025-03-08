@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 const PortfolioPage = () => {
   const projects = [
     {
@@ -23,7 +22,7 @@ const PortfolioPage = () => {
       demoUrl: "https://burger-haven-theta.vercel.app/",
       more_details:
         "Experience BurgerHaven, a dynamic burger website built with React and Bootstrap for a seamless and responsive experience. Browse our delicious menu in a PDF format and easily place orders through the dedicated order page. With smooth navigation powered by React, you can explore our handcrafted burgers, customize your meal, and complete your order effortlessly.",
-        imageUrl: "/burgerhaven.PNG",
+      imageUrl: "/ecommerce-website.png",
     },
     {
       id: 3,
@@ -59,7 +58,6 @@ const PortfolioPage = () => {
       demoUrl: "https://weather-app-eight-omega-81.vercel.app/",
     },
   ];
-  
 
   const [expandedProject, setExpandedProject] = useState(null);
 
