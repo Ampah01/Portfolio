@@ -19,7 +19,7 @@ const Navbar = () => {
         <h2 className="text-2xl font-bold text-red-500 cursor-pointer">
           <Link
             to="home"
-            spy={true}cd my-portfo
+            spy={true}
             smooth={true}
             offset={-70}
             duration={500}
