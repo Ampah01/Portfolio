@@ -34,7 +34,7 @@ const PortfolioPage = () => {
       demoUrl: "https://ecommerce-website-eight-zeta.vercel.app/",
       more_details:
         "Explore our sleek sneaker shop, crafted with React and Tailwind CSS for a seamless user experience. Browse a curated collection of stylish footwear, from classics to limited editions, all designed to elevate your style effortlessly. Shop with confidence and ease, navigating through intuitive React routes for quick access to product details and checkout.",
-      imageUrl: "./ecommerce-website.png",
+      imageUrl: "/ecommerce-website.png",
     },
     {
       id: 4,
